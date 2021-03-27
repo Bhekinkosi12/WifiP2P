@@ -42,6 +42,8 @@ namespace WifiP2P.WiFiService
 
     public class TestMessage
     {
+        
+        
         public string ReceivedMessage { get; set; }
         public string ReceivedError { get; set; }
         public string ReceivedFrom { get; set; }
@@ -50,6 +52,7 @@ namespace WifiP2P.WiFiService
         public string SendError { get; set; }
         public string SendTo { get; set; }
 
+        
         public bool IsHost { get; set; }
 
         public TestMessage()
